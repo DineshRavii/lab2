@@ -21,4 +21,4 @@ jobs:
     steps:
       - run: |
           echo "Printing Custom Message"
-          echo "$ {{ inputs.custom_message }}"
+          echo "${{ inputs.custom_message }}"
